@@ -1,4 +1,5 @@
-<div align="center"># WinKeyInfo
+<div align="center">
+<h6>WinKeyInfo</h6>
 
 [![](https://img.shields.io/badge/MIT-license-brightgreen.svg)](https://github.com/CodeHack-V/WinKeyInfo/blob/main/LICENSE)
 [![](https://img.shields.io/badge/.NET-6.0-informational.svg)](https://dotnet.microsoft.com/en-us/download/dotnet/6.0/runtime)
