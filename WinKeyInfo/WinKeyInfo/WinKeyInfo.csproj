@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <PackageIcon>系统信息.png</PackageIcon>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="logo.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.Management" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Panuon.UI.Silver">
+      <HintPath>E:\Files\PanuonUI.Silver\UIBrowser\bin\Release\Panuon.UI.Silver.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
